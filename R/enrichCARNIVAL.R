@@ -24,10 +24,10 @@
 enrichCARNIVAL<-function(Result_dir="Results_CARNIVAL",universeFile=NULL, networkID=1, universeID= 2, datapath=NULL, datasource=NULL,directionalORA=T, undirectionalORA=T, plot=F, topEnrichAll=40,pathwayfilter=T,pValSig=0.05){
   
   # Load required libraries
-  library(GSEABase)
-  library(dplyr)
-  library(Category)
-  library(ggplot2)
+  # library(GSEABase)
+  # library(dplyr)
+  # library(Category)
+  # library(ggplot2)
   
   #### Input check ####
   if (is.null(universeFile)) {stop("Please provide a set of genes to be used as the universe for enrichment analyses")}
