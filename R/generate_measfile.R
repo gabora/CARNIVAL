@@ -11,7 +11,7 @@
 #' @export
 
 generate_measfile<-function(measurements, topnumber=NULL, write2folder="./measurements"){
-  library(dplyr)
+  # library(dplyr)
   if(dir.exists(write2folder)==F){dir.create(write2folder)}
   drugs<-colnames(measurements)
   for (i in 1:ncol(measurements)){
