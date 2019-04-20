@@ -11,9 +11,9 @@
 
 mapUniprotPKN<-function(netFile=NULL, organism='human'){
   
-  library(UniProt.ws)
-  library(dplyr)
-  library(tidyr)
+  # library(UniProt.ws)
+  # library(dplyr)
+  # library(tidyr)
 
   if (is.null(netFile)) {stop("Please provide the prior knowledge network file in the Uniprot ID format")}
   if (organism=="human") {taxId <- 9606
